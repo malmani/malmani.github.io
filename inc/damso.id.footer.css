@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* damso-footer */
+	#damso-footer{padding-bottom:50px}
+	#damso-footer address *{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;list-style:none;font-style:normal;text-transform:uppercase;}
+	#damso-footer address a:hover{text-decoration:underline}
+	#damso-footer address span.point{color:#a6937c}
+
+/* ul, p */
+	#damso-footer address nav{margin-bottom:14px}
+	#damso-footer address p,
+	#damso-footer address span{letter-spacing:0;color:#707070}
+	#damso-footer address p{margin-bottom:5px;font:12px tahoma}
+	#damso-footer address p.symbol{margin-top:20px}
+	#damso-footer address p.duty{display:inline-block;font-family:inherit}
+
+/* nav / bar */
+	#damso-footer address nav li{border-color:#ccc}
+	#damso-footer address .bar span{display:inline;white-space:nowrap;margin-left:7px;padding-left:7px;border-left:1px solid #ccc;line-height:1.5em}
+	#damso-footer address .bar span.first,
+	#damso-footer address .bar span:first-child{border:none;padding-left:0;margin-left:0}
+
+/* symbol */
+	#damso-footer .damso-symbol-image{width:54px;height:12px;background-size:54px 12px;line-height:10px;background-image:url('/image/damso.symbol.png');background-repeat:no-repeat;background-position:50%;display:inline-block}
+
+/* damso-check */
+	#damso-check{float:right}
+	#damso-check .icon{display:inline-block;width:15px;height:15px;background-size:15px}
+
+/* damso-footer-counter */
+	#damso-footer-counter button.close{z-index:22;top:1em;right:0;font-size:14px}
+	#damso-footer-counter table{width:100%;margin-bottom:5px;border-bottom:1px solid #ddd;border-right:1px solid #ddd;border-spacing:0}
+	#damso-footer-counter table td,
+	#damso-footer-counter table th{border-top:1px solid #ddd;border-left:1px solid #ddd;padding:3px 5px;font-family:'Nanum Gothic Coding', monospace;text-align:left}
+	#damso-footer-counter table th{background:#f5f5f5;text-transform:uppercase}
+	#damso-footer-counter table.total{margin-top:5px}
+	#damso-footer-counter table.today td{background:#f9f7dc}
+	#damso-footer-counter caption{visibility:hidden;overflow:hidden;width:1px;height:1px;font-size:0;line-height:0}
+	#damso-footer-counter p.update{line-height:9px;color:#aaa;background-color:#eee}
+
+/* popup */
+	#damso-footer .popup{position:fixed;display:none;z-index:999;width:220px;bottom:0;left:50%;padding:20px 5px 5px 5px;margin-left:-116px;border:1px solid #ccc;border-bottom:none;background:#fff}
+
+/* custom */
+	#damso-footer.gray address a,
+	#damso-footer.gray address p,
+	#damso-footer.gray address span{color:#aaa}
+	#damso-footer.gray address p.duty{background-color:#333}
+	#damso-footer.gray address nav li,
+	#damso-footer.gray address .bar span{border-color:#555}
+	#damso-footer.gray .damso-symbol-image{filter:invert(70%)}
+
+	#damso-footer.white address a,
+	#damso-footer.white address p,
+	#damso-footer.white address span{color:#eee}
+	#damso-footer.white address p.duty{background-color:#999}
+	#damso-footer.white address nav li,
+	#damso-footer.white address .bar span{border-color:#ddd}
+	#damso-footer.white .damso-symbol-image{filter:invert(100%)}
+
+@media screen and (max-width:500px)
+{
+	#damso-check{display:none}
+}
+
+/* mobile */
+	#damso.device-mobile #damso-footer .damso-symbol-image{background-image:url('/image/damso.symbol.mobile.png')}
+
+@media only screen and (-moz-min-device-pixel-ratio: 2),
+       only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2) {
+#damso-footer .damso-symbol-image{background-image:url('/image/damso.symbol.mobile.png')}
+}
