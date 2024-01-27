@@ -7,14 +7,12 @@
 body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
 a, button{color:#aaa}
 
-/* Class */
-nav ul.width.line li{border-color:#555}
-
 /* ID */
-#damso .inner{width:90%;max-width:600px;margin:0 auto;padding:5em 5%}
-#damso-title h1{font-size:3em}
+#damso .inner{width:90%;margin:0 auto;padding:5em 5%}
+#damso-title h1{font-size:3.3em}
 #damso-title h2{font-size:1.5em}
 #damso-menu{margin-top:3em}
+#damso-menu nav li{border-color:#555}
 #damso-menu a{font-size:1.5em;text-transform:capitalize;}
 #damso-footer{margin-top:3em}
 #damso-footer address .bar span{border-color:#555}
