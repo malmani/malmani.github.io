@@ -4,10 +4,10 @@
 @import url('./damso.id.footer.css');
 
 /* Github Edition */
-body{background:#333 url('/image/bg.tp-1.black.png');color:#ccc}
+body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
 
 /* ID */
-#damso .inner{width:90%;max-width:600px}
+#damso .inner{width:90%;max-width:600px;margin:0 auto;padding:5em 5%}
 #damso-title{margin-top:5em}
 #damso-title h1{font-size:3em}
 #damso-title h2{font-size:2em}
