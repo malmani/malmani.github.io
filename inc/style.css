@@ -7,5 +7,5 @@
 body{background:#333 url('/image/bg.tp-1.black.png');color:#ccc}
 
 /* ID */
-#damso-header h1{font-size:3em}
-#damso-header h2{font-size:2em}
+#damso-title h1{font-size:3em}
+#damso-title h2{font-size:2em}
