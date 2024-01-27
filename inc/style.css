@@ -7,6 +7,9 @@
 body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
 a, button{color:#aaa}
 
+/* Class */
+nav ul.width.line li{border-color:#777}
+
 /* ID */
 #damso .inner{width:90%;max-width:600px;margin:0 auto;padding:5em 5%}
 #damso-title{margin-top:5em}
