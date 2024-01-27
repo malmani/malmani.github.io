@@ -8,7 +8,7 @@ body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
 a, button{color:#aaa}
 
 /* Class */
-nav ul.width.line li{border-color:#777}
+nav ul.width.line li{border-color:#555}
 
 /* ID */
 #damso .inner{width:90%;max-width:600px;margin:0 auto;padding:5em 5%}
