@@ -5,6 +5,7 @@
 
 /* Github Edition */
 body{background:#333 url('/image/bg.tp-1.black.png');color:#aaa}
+a, button{color:#aaa}
 
 /* ID */
 #damso .inner{width:90%;max-width:600px;margin:0 auto;padding:5em 5%}
